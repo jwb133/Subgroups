@@ -1,0 +1,28 @@
+---
+title: "Recent publications on subgroup analysis in trials"
+output: html_document
+author: Jonathan Bartlett
+date: 5th June 2016
+---
+
+This document details some of the recent research which has been published on the topic of subgroup analyses in trials, with a particular focus on those looking at point estimation of subgroup effects. The articles are ordered starting with an introductory discussion, before moving to more of the specific methodology which has been proposed.
+
+### [Lagakos 2006](http://fp.ucalgary.ca/FMResidentSecure/Articles/The%20Challenge%20of%20Subgroup%20Analyses.pdf)
+
+A nice introductory discussion of the issues which arise with subgroup analyses (although there is not specific discussion about the point estimation of subgroup effects).
+
+### [Jones et al 2011](https://www.researchgate.net/profile/Beat_Neuenschwander/publication/49799347_Bayesian_models_for_subgroup_analysis_in_clinical_trials/links/0046351c0118403b6b000000.pdf)
+
+Describes regression modelling approaches to the problem of estimating subgroup effects, with the key idea that shrinkage of estimates towards a common mean gives improved point estimates for subgroup effects. A number of different regression modelling proposals are reviewed, and applied to trial datasets and two simulated datasets.
+
+### [Rosenkranz 2014](https://www.researchgate.net/profile/Gerd_Rosenkranz/publication/262211000_Bootstrap_corrections_of_treatment_effect_estimates_following_selection/links/552cde110cf2e089a3acfb96.pdf)
+
+Proposes using bootstrapping to estimate the bias in the estimates of subgroup effects which are the 'largest'. Specifically, considers the case where one is interested in finding the subgroup with the largest effect, and considers the bias of an estimator which uses the observed effects to decide which is the largest.
+
+### [Berger et al 2014](http://dx.doi.org/10.1080/10543406.2013.856026)
+
+Develops a Bayesian method based on a classification tree type approach. Potentially prohibitively computationally expensive.
+
+### [Varadhan & Wang 2016](http://dx.doi.org/10.1002/bimj.201400102)
+
+Examines a number of regression modelling approaches, assuming the absence of higher order interaction terms. Bayesian and empirical Bayes are described, and compared in a simulation study. The approach has been implemented in the R package [DSBayes](https://cran.r-project.org/web/packages/DSBayes/index.html).
