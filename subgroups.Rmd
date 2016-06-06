@@ -11,6 +11,10 @@ This document details some of the recent research which has been published on th
 
 A nice introductory discussion of the issues which arise with subgroup analyses (although there is not specific discussion about the point estimation of subgroup effects).
 
+### [Bhatt et al 2006](http://www.nejm.org/doi/full/10.1056/NEJMoa060989#t=article)
+
+A large trial, referred to by Lagakos, which shows a typical subgroup forest plot (Figure 2).
+
 ### [Jones et al 2011](https://www.researchgate.net/profile/Beat_Neuenschwander/publication/49799347_Bayesian_models_for_subgroup_analysis_in_clinical_trials/links/0046351c0118403b6b000000.pdf)
 
 Describes regression modelling approaches to the problem of estimating subgroup effects, with the key idea that shrinkage of estimates towards a common mean gives improved point estimates for subgroup effects. A number of different regression modelling proposals are reviewed, and applied to trial datasets and two simulated datasets.
